@@ -1,0 +1,22 @@
+{
+  "name": "reggaetoggle",
+  "version": "1.0.0",
+  "description": "A simple realtime feature toggling",
+  "main": "index.js",
+  "author": "Ramon Schmidt Rocha",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest --silent"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
